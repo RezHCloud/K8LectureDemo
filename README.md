@@ -73,7 +73,7 @@ This should return an local URL address.
 It should return the webpage in a HTML format - this is how you know the service is functioning correctly 
 
 8. Type in "kubectl port-forward svc/echo-server-service 3000:80 --address 0.0.0.0 &" 
-This sets up port forwarding which is required to forward the request in coming request on port 3000 to the correct port (port 80) on the container. 
+This sets up port forwarding which is required to forward the incoming request on port 3000 to the correct port (port 80) on the container. 
 To reach the server, you need to use the servers public IP address which can be found on the instances page on the AWS management console followed by the port 3000. (For example http://1.2.3.4:3000)
 
 You can now view the page on a web browser and that pretty much the demo done! 
