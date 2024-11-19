@@ -1,7 +1,7 @@
 # Minikube Demo 
 
 ## Intro
-This is an instructional page on how to carry out the demo that was/will be on show during the Kubernetes introduction lecture. This demo looks at some of the concepts learnt over the lecture as well as acting as your first interaction with kubernetes infrastructure. The Demo can be reused to spin up and test more advanced concepts with kubectl ones you've learnt more.
+This is an instructional page on how to carry out the demo that was/will be on show during the Kubernetes webinar. This demo looks at some of the concepts learnt over the lecture as well as acting as your first interaction with kubernetes infrastructure. The Demo can be reused to spin up and test more advanced concepts with kubectl ones you've learnt more.
 
 ## Pre-requisites 
 This demo is carried out within AWS - this is to eliminate the complexities of setting up (and later - removing) minikube within your own device. 
