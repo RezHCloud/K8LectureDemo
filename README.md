@@ -22,7 +22,7 @@ We will be using instance connect to SSH into the box rather than using a deskto
 We will be connecting to the application through the open internet using port 3000. You can restrict the IP range to your own if you desire. 
 
 ## Installing all required software 
-Once the instance has been provisioned, please complete the following:
+Once the instance has been provisioned,  Click on the connect button for the instance in the EC2 console. Please complete the following:
 1. sudo apt update 
 2. sudo apt -y install docker.io
 3. sudo su -
