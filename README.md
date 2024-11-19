@@ -53,8 +53,14 @@ This will create a new file called echo-server.yaml in a text editor called nano
 This deploys the yaml config you've created.
 
 Now you have a deployment up and running! 
+
+
 kubectl get pods - this command shows you all pods that are currently running
+
+
 kubectl get deployment - this command shows tou all deployments that are running 
+
+
 There are plenty of commands here you can mess around with to get more information about the resource. 
 
 5. type in command "kubectl expose deployment echo-server --type=NodePort --port=80 --name=echo-server-service"
