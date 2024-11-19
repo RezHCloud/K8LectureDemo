@@ -45,7 +45,7 @@ If you are using this guide to replicate the demo shown in the lecture - start h
 1. Type in the following command "nano echo-server.yaml"
 This will create a new file called echo-server.yaml in a text editor called nano. 
 
-2. copy the kubernetes configuration in the XXXXXX.yaml file in the repo. This is a deployment we will be deploying. Look through the config, make sure you understand everything (Except the env variables, they are simply variables we are passing into the container.)
+2. copy the kubernetes configuration in the DemoDeployment.yaml file in the repo. This is a deployment we will be deploying. Look through the config, make sure you understand everything (Except the env variables, they are simply variables we are passing into the container.)
 
 3. Ctrl + S saves the config file, Ctrl + X closes the page.Make sure you do it in that order
 
