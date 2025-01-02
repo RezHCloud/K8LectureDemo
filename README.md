@@ -16,7 +16,7 @@ This demo has been tested with 2 replicas within a deployment. If wanting more r
 This security group needs the 2 following inbound ports open: 
 
 ##### SSH (port 22) to AWS's Instance connect
-We will be using instance connect to SSH into the box rather than using a desktop app for simplicity. You are more than welcome to use your own SSH terminal if you are comfortable setting it up. 
+We will be using instance connect to SSH into the box rather than using a desktop app for simplicity. You are more than welcome to use your own SSH terminal if you are comfortable setting it up. For the EU region - 3.8.37.24/29
 
 ##### Custom TCP (port 3000) to 0.0.0.0/0
 We will be connecting to the application through the open internet using port 3000. You can restrict the IP range to your own if you desire. 
